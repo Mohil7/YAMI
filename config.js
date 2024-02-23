@@ -1,6 +1,6 @@
 module.exports = {
-  OWNER_IDS: [""], // Bot owner ID's
-  SUPPORT_SERVER: "", // Your bot support server
+  OWNER_IDS: ["427908165644845069"], // Bot owner ID's
+  SUPPORT_SERVER: "https://discord.gg/VnKwVSUdja", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
     DEFAULT_PREFIX: "!", // Default prefix for the bot
@@ -51,17 +51,17 @@ module.exports = {
   },
 
   MUSIC: {
-    ENABLED: false,
-    IDLE_TIME: 60, // Time in seconds before the bot disconnects from an idle voice channel
+    ENABLED: true,
+    IDLE_TIME: 200, // Time in seconds before the bot disconnects from an idle voice channel
     MAX_SEARCH_RESULTS: 5,
     DEFAULT_SOURCE: "SC", // YT = Youtube, YTM = Youtube Music, SC = SoundCloud
     // Add any number of lavalink nodes here
     // Refer to https://github.com/freyacodes/Lavalink to host your own lavalink server
     LAVALINK_NODES: [
       {
-        host: "localhost",
-        port: 2333,
-        password: "youshallnotpass",
+        host: "lavalink.theelf.tech",
+        port: 2873,
+        password: "https://discord.gg/AaZasMN3yG",
         id: "Local Node",
         secure: false,
       },
